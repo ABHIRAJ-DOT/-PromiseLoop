@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Secrets and local databases
+.env
+.env.local
+*.db
+*.sqlite3
+
+# Runtime output
+uvicorn.out
+uvicorn.err
+mcp.out
+mcp.err
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

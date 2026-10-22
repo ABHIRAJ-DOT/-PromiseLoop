@@ -1,0 +1,13 @@
+# Normalise line endings so the repo looks the same on every platform.
+* text=auto eol=lf
+
+# Windows scripts stay CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets.
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
